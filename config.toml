@@ -1,6 +1,5 @@
 #ホームページのURL
 baseURL = ""
-
 #サイトの言語
 languageCode = "ja"
 #サイトのタイトル
