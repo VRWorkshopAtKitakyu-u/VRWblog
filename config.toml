@@ -1,0 +1,49 @@
+#ホームページのURL
+baseURL = "/"
+
+#サイトの言語
+languageCode = "ja"
+#サイトのタイトル
+title = "北九大VR勉強会"
+#中国、韓国、日本いずれかの言語の使用
+hasCJKLanguage = true
+#セクションを複数形にする
+pluralizeListTitles = false
+#使用するテーマ
+theme = "Rush-construction"
+#相対パスを有効に  
+relatibeurls = true
+#ビルド成果物の出力場所
+publishDir = "docs"
+#Gitの更新日時と記事の更新日時を同期
+#enableGitInfo = true
+#GIT_CONFIG_NOSYSTEM = true
+enableEmoji = true
+#シンタックスハイライトの設定
+pygmentsUseClasses = true
+pygmentsCodefences = true #言語ごとに指定
+#クローラーの設定
+enableRobotsTXT = false
+
+[Params]
+  title = "北九大VR勉強会"
+  logo = "/icon/favicon.png"
+  thumbnail = "/icon/favicon.png"
+  images = ["/icon/favicon.png"]
+  customCSS = ["/css/syntax.css"]
+  
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = ""
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "profile"
+    name = "Profile"
+    url = "/post/management/profile"
+    weight = 3

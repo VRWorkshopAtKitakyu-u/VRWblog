@@ -1,0 +1,8 @@
+<div class="header">
+    <a class="sitetitle" href="{{.Site.BaseURL}}" target="_blank" rel="noopener" > <h1>{{.Site.Title}} </h1></a>
+    {{ range .Site.Menus.main.ByWeight }}
+        <a class="menuc" href="{{ .URL }}"target="_blank" rel="noopener">{{ .Name }}</a>
+    {{ end }}
+</div>
+
+
