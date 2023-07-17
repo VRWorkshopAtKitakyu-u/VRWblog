@@ -1,5 +1,5 @@
 #ホームページのURL
-baseURL = ""
+baseURL = "https://vrworkshopatkitakyu-u.github.io/VRWblog"
 #サイトの言語
 languageCode = "ja"
 #サイトのタイトル
@@ -11,7 +11,9 @@ pluralizeListTitles = false
 #使用するテーマ
 theme = "Rush-construction"
 #相対パスを有効に  
-relatibeurls = true
+#relatibeurls = true
+#絶対パス化
+canonifyurls = true
 #ビルド成果物の出力場所
 publishDir = "docs"
 #Gitの更新日時と記事の更新日時を同期
