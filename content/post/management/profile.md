@@ -3,9 +3,9 @@ title: "Profile"
 date: 2023-07-17T10:09:57+09:00
 lastmod: 2023-07-17T10:09:57+09:00
 draft: false
-topimg: "/vrw.png"
-images: ["/vrw.png"]
-categories : [""]
+topimg: "/post/vrw.png"
+images: ["/post/vrw.png"]
+categories : ["Management"]
 tags: [""]
 ---
 

@@ -1,5 +1,5 @@
 #ホームページのURL
-baseURL = "https://vrworkshopatkitakyu-u.github.io/VRWblog"
+baseURL = "https://vrworkshopatkitakyu-u.github.io/VRWblog/"
 #サイトの言語
 languageCode = "ja"
 #サイトのタイトル
@@ -32,7 +32,6 @@ enableRobotsTXT = false
   thumbnail = "/icon/favicon.png"
   images = ["/icon/favicon.png"]
   customCSS = ["/css/syntax.css"]
-  
 
 [markup.goldmark.renderer]
   unsafe = true
