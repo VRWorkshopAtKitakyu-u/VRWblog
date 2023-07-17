@@ -4,8 +4,8 @@
         <ul>
             {{ range .Pages }}
             <a class="titlelist" href="{{ .Permalink }}" target="_blank" rel="noopener"> <h2>{{ .Title }}</h2> </a>
-            <div class="meta"><img src ="/icon/make.png" width=12em> {{.Date.Format "2006/1/2"}} <img src ="/icon/new.png" width=12em> {{.Lastmod.Format "2006/1/2"}}</div>
-            <a class="titlelist" href="{{ .Permalink }}" target="_blank" rel="noopener"> <img src ="/media{{ .Params.topimg }}" width=18%> </a>
+            <div class="meta"><img src ="icon/make.png" width=12em> {{.Date.Format "2006/1/2"}} <img src ="icon/new.png" width=12em> {{.Lastmod.Format "2006/1/2"}}</div>
+            <a class="titlelist" href="{{ .Permalink }}" target="_blank" rel="noopener"> <img src ="media{{ .Params.topimg }}" width=18%> </a>
             {{ end }}
         </ul>
     {{ end }}
@@ -15,8 +15,8 @@
             {{$paginator := .Paginate (where .Site.RegularPages "Type" "post") 15}}
             {{range $paginator.Pages}}
             <a class="titlelist" href="{{ .Permalink }}" target="_blank" rel="noopener"> <h2>{{ .Title }}</h2> </a>
-            <div class="meta"> <img src ="/icon/make.png" width=12em> {{.Date.Format "2006/1/2"}} <img src ="/icon/new.png" width=12em> {{.Lastmod.Format "2006/1/2"}}</div>
-            <a class="titlelist" href="{{ .Permalink }}" target="_blank" rel="noopener"> <img src ="/media{{ .Params.topimg }}" width=18%> </a>
+            <div class="meta"> <img src ="icon/make.png" width=12em> {{.Date.Format "2006/1/2"}} <img src ="icon/new.png" width=12em> {{.Lastmod.Format "2006/1/2"}}</div>
+            <a class="titlelist" href="{{ .Permalink }}" target="_blank" rel="noopener"> <img src ="media{{ .Params.topimg }}" width=18%> </a>
             {{ end }}
         </ul>
         {{ if .Paginator.HasPrev }}

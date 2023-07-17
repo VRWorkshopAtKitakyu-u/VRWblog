@@ -1,5 +1,5 @@
 #ホームページのURL
-baseURL = "/"
+baseURL = ""
 
 #サイトの言語
 languageCode = "ja"
