@@ -5,12 +5,15 @@
 静的サイトジェネレーターの[Hugo](https://gohugo.io/)を使用  
 
 ## Hugoの簡単な使い方  
+CUIでの操作がメインになります。Terminalと仲良くなりましょう。  
+
 インストール(windows)[公式解説](https://gohugo.io/installation/windows/)  
 Go言語をインストール: winget install GoLang.Go  
 Hugoをインストール: winget install Hugo.Hugo.Extended  
 
 新規記事の作成  
-hugo new post/カテゴリ名/記事名.md (半角英数字のみ使うこと)  
+hugo new post/カテゴリ名/記事名.md (このままURLになるため半角英数字のみ使うこと)  
+→content/post/カテゴリ名/以下に.mdファイルが生成される。  
 
 ビルド  
 hugo  
