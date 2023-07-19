@@ -11,7 +11,7 @@ pluralizeListTitles = false
 #使用するテーマ
 theme = "Rush-construction"
 #相対パスを有効に  
-#relatibeurls = true
+relatibeurls = true
 #絶対パス化
 canonifyurls = true
 #ビルド成果物の出力場所

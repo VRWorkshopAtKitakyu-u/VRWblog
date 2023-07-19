@@ -9,6 +9,8 @@ categories : ["Management"]
 tags: [""]
 ---
 
+{{% imgin "/post/vrw.png" "30" "このサイトのファビコン" %}}  
+
 北九州市立大学の非公認サークル、北九大VR勉強会です。  
 Discordを中心に不定期で活動中です。
 
