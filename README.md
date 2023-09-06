@@ -21,7 +21,7 @@ hugo
 デバッグ  
 hugo server -D  
 ## テーマの使い方  
-テーマはReyoKatsu作のRush Constructionを使用  
+テーマはReyoKatsu作のRush-constructionを使用  
 
 ### 画像挿入関数: imgin  
 使い方  
