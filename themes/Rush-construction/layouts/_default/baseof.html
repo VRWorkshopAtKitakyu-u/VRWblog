@@ -4,9 +4,9 @@
     <body>
         {{partial "header" .}}
         <div class="wrap">
-            <div class="main">
+            <main class="main">
                 {{ block "main" . }}{{ end }}
-            </div>
+            </main>
             {{partial "sidebar" .}}
         </div>
         {{partial "footer" .}}

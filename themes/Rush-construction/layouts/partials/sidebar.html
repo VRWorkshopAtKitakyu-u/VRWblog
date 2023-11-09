@@ -1,21 +1,21 @@
-<div class="sidebar">
+<aside class="sidebar_wrapper">
+    <div class="sidebar">
+        <p>
+            カテゴリー
+            <ul type ="sqare">
+                {{ range $termName, $entries := .Site.Taxonomies.categories }}
+                    <a class="categories" href="{{ "/categories/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}({{ $entries.Count }})</a> 
+                {{ end }}
+            </ul>
+        </p>
 
-    <p>
-        カテゴリー
-        <ul type ="sqare">
-            {{ range $termName, $entries := .Site.Taxonomies.categories }}
-                <a class="categories" href="{{ "/categories/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}({{ $entries.Count }})</a> 
-            {{ end }}
-        </ul>
-    </p>
-
-    <p>
-        タグ
-        <ul>
-            {{ range $termName, $entries := .Site.Taxonomies.tags }}
-                <a class="tags" href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}({{ $entries.Count }})</a> 
-            {{ end }}
-        </ul>
-    </p>
-    
-</div>
+        <p>
+            タグ
+            <ul>
+                {{ range $termName, $entries := .Site.Taxonomies.tags }}
+                    <a class="tags" href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">{{ $termName }}({{ $entries.Count }})</a> 
+                {{ end }}
+            </ul>
+        </p>
+    </div>
+</aside>
